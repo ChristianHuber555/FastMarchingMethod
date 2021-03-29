@@ -19,3 +19,9 @@ Finite differences try to approximate derivatives (here in terms of the function
   </head>
   ...
 </html>
+
+
+var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
+    throwOnError: false
+});
+// '<span class="katex">...</span>'
