@@ -11,8 +11,11 @@ I'm still in the learning process how to code efficiently, so I would welcome an
 The Installation of the package is straigthforward, only the following has to be typed into "Anaconda Prompt":
 
 ```
-D
+cd -directory to FMM_Setup.py-
+python FMM_Setup.py
 ```
+
+The installation was only tested and used on python.
 
 ## Usage
 
