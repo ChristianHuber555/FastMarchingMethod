@@ -16,6 +16,11 @@ Finite differences try to approximate derivatives (here in terms of the function
     <!-- To automatically render math in text elements, include the auto-render extension: -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
+        
+  var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
+    throwOnError: false
+});
+// '<span class="katex">...</span>'
   </head>
   ...
 </html>
